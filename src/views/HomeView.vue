@@ -5,7 +5,7 @@ import JobListnings from '@/components/JobListnings.vue';
 </script>
 
 <template>
-    <Hero title="Test Title" subtitle="Test SubTitle" />
+    <Hero />
     <HomeCrads />
     <JobListnings :limit="3" :showButton="true" />
 </template>
